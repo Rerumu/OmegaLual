@@ -81,6 +81,7 @@ function love.load()
 	local Max = love.graphics.getWidth();
 	local May = love.graphics.getHeight();
 
+	love.window.setTitle('Omegalul Painter');
 	Image = love.graphics.newImage('omegalol.png'); -- Load stuff
 	Rex, Rey = Max / Gridsz, May / Gridsz;
 	Cluster = require('cluster').new();
