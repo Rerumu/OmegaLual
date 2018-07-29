@@ -7,7 +7,7 @@ local MegaLuls = {};
 local Gridsz = 24; -- Grid size, customizable
 
 --[[
-	Regarding the change of style in `enum.lua` and `cluster.lua`,
+	Regarding the change of style in `cluster.lua`,
 	I simply didn't put much effort into making them consistent with
 	the main code, and just made them as sort of side libraries.
 ]]
